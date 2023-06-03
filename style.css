@@ -1,0 +1,228 @@
+*{
+    font-family: 'Monomaniac One', sans-serif;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+.zelda{
+    border-radius: 15px;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    box-shadow: 0px 3px 5px black ;
+    
+    
+}
+
+h1{
+    text-shadow: 3px 3px 3px rgb(204, 0, 0);
+   font-style: oblique;
+    color: #ffffff;
+    font-size: 60px
+    
+    
+    
+
+
+}
+
+h3{
+    color: rgba(12, 0, 44, 0.891);
+}
+
+
+body{
+    margin: 0;
+    background: linear-gradient(245.59deg, rgb(255, 239, 151) 0%, rgb(236, 100, 66) 28.53%, rgb(32, 103, 246) 75.52%);
+    
+}
+
+
+.logo{
+
+   display: flex;
+    width: 40px
+   
+
+}
+
+header{
+    display: flex;
+    height: 40px;  
+    justify-content: space-between;
+    background-color:rgb(0, 138, 64) ;
+    align-items: center;
+    padding: 15px;
+        
+
+}
+
+.logo img{
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 18px;
+    padding: 20px;
+    transition: 1s;
+    
+    
+    
+    
+    
+}
+nav a:hover{
+    color: rgb(175, 0, 0);
+    transition: 0.5s;
+}
+
+
+.footer{
+    background-color: rgb(79, 193, 155);
+    
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+.footer-links{
+    
+    padding: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+footer a:hover{
+    color: rgb(196, 0, 0);
+    transition: 0.5s;
+}
+
+.social-links a{
+   display: inline-block; 
+   min-height: 10px;
+   width: 20px;
+   background-color: rgb(119, 174, 120);
+   margin: 0 5px 5px 0;
+   text-align: center;
+   line-height: 15px;
+   border-radius: 30%;
+   color: azure;
+   transition: all .5s ease;
+}
+
+.social-links a:hover{
+    background-color: rgba(196, 0, 0);
+    transition: 0.5s;
+}
+
+@media(max-width:990px){
+    .footer-row {
+        text-align: center;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+.main{
+    margin: 10px;
+}
+
+.bowser {
+    width: 150px;
+    height: 100%;
+
+    
+}
+
+.star {
+    width: 50px ;
+    height: 50%;
+    
+}
+
+pr{
+   margin: 50px;
+   font-size: 25px;
+
+}
+
+.login {
+    width: 100px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 20px;
+    
+    
+}
+
+button {
+
+    background-color: rgb(4, 83, 57);
+    border-radius: 20%;
+   color: rgb(0, 0, 0_)
+}
+
+form button {
+    background-color: #35a98e;
+    padding: 5px 10px;
+    border: 10px;
+    color: #ffffff;
+   
+}
+
+
+
+button {
+    background-color: #35a98e;
+    padding: 5px 10px;
+    border: 10px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 50px
+    
+   
+   
+   
+}
+
+form button:hover{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.boton:hover{
+    background-color: red;
+    color: rgb(255, 255, 255); 
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
